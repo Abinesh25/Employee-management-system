@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "625a",
+      "username": "admin",
+      "email": "1@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "d2a9",
+      "username": "aaa",
+      "email": "wewe@gmail.com",
+      "password": "aaa"
+    },
+    {
+      "id": "001f",
+      "username": "abi",
+      "email": "abiselva254@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "5276",
+      "username": "abi",
+      "email": "abiselva254@gmail.com",
+      "password": "234"
+    }
+  ]
+}

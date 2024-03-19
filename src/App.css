@@ -1,0 +1,348 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.firstcont{
+  background-color: #2b2b2a;
+}
+.App-header {
+  background-color:  #2b2b2a;;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #f9fc3d;
+}
+.total
+{
+  background-color: #2b2b2a;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App1
+{
+  background-color: rgb(51, 51, 51);
+}
+body {
+  background-color: #2b2b2a;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-control {
+  background-color: grey;
+  color: white;
+}
+
+.input-group-text, .input-group-text:focus {
+  background-color: rgb(12, 12, 12);
+  color: white;
+}
+
+.cursor {
+  cursor: pointer;
+}
+img
+{
+  border-radius: 20px;
+  width: 90%;
+}
+.details
+{
+  border: 2px solid black;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #0b0b0b;
+}
+
+tr:hover {
+  background-color: #1c1b1b;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.signpage {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.flink {
+  display: block;
+  text-align: center;
+}
+
+.login {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.flink {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+.container1 {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.btn {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.input-group-text {
+  background-color:  rgb(63, 61, 61);
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group > input {
+  border-radius: 5px 0 0 5px;
+}
+
+.container3 {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.btn1 {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: #45a049;
+}
+
+.input-group-text {
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group > input {
+  border-radius: 5px 0 0 5px;
+}
+
+.form-3el {
+  font-weight: bold;
+}
+
+.form3bel {
+  font-weight: bold;
+}
+
+.fo2bel {
+  font-weight: bold;
+}
+
+.foel {
+  font-weight: bold;
+}
+
+.fobel {
+  font-weight: bold;
+}
+
+.forml {
+  font-weight: bold;
+}
+
+.formed {
+  font-weight: bold;
+}
+.btn1{
+  width: 150px;
+}
+
+.App-footer
+{
+  background-color: #0e0e0e;
+  padding: 30px;
+}
+.containera
+{
+  padding: 20px;
+}

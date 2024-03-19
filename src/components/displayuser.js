@@ -1,0 +1,49 @@
+import React from 'react'
+import {Link} from "react-router-dom";
+export default function DisplayUser(props) {
+    document.title="Employee Details";
+    if (props.employees.length < 1) {
+        return (
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+                        <h1 className="text-center">No Employee Found</h1>
+                        <Link to="/add" className="btn btn-success">Add Employee</Link>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+    return (
+        <div className='container'>
+            <h1 className='text-center mb-5'>Employee Details</h1>
+            <table className="table table-dark table-striped">
+                <thead>
+                    <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Phone No.</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Address</th>
+                    </tr>
+                </thead>
+                <tbody className='details'>
+                    {props.employees.map((element, i) => {
+                        return (
+                            <tr key={i}>
+                                <th scope="row">{i+1}</th>
+                                <td>{element.fname} {element.lname}</td>
+                                <td>{element.age}</td>
+                                <td>{element.phone}</td>
+                                <td>{element.email}</td>
+                                <td>{element.address}</td>
+                            </tr>
+                        )
+                    })}
+                </tbody>
+            </table>
+        </div>
+    )
+    
+}
